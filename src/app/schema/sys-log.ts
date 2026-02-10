@@ -1,0 +1,32 @@
+export interface SysLogInput {
+    // 日志类型
+    logType?: string;
+    // 日志标题
+    logTitle?: string;
+    // 请求方式
+    requestMethod?: string;
+    // 方法名称
+    methodName?: string;
+    // 请求路径
+    apiUrl?: string;
+    // 请求数据
+    requestData?: string;
+    // 响应数据
+    responseData?: string;
+    // 操作人
+    userName?: string;
+    // 操作ip
+    ip?: string;
+    // ip归属地
+    ipLocaltion?: string;
+    // 浏览器
+    browser?: string;
+    // 状态
+    status?: boolean;
+    // 消息
+    message?: string;
+    // 执行耗时
+    takeTime?: number;
+    // 请求时间
+    requestTime?: Date;
+}
